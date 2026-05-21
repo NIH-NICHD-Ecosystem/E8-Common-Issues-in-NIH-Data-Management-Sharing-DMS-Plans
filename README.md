@@ -40,7 +40,7 @@ These issues apply to both intramural and extramural researchers unless otherwis
 #### 1. Missing details for data that will be generated and shared
 
 When describing what data will be generated and shared, include details such as species (or other source), format, and amount.
-Below are examples of how to complete the table in #6 of the updated DMS Plan Format page:
+Below are examples of how to complete the table in #6 of the updated DMS Plan Format page: 
 
 | Expected Data Type  | Established Repository or Example | 
 | :----------| :---------- |
@@ -91,7 +91,65 @@ Extra care should be taken when selecting data repositories that support control
 
 Finally, it is unacceptable for researchers to propose to build a new data repository or to share data through a forthcoming data repository, as part of the DMS Plan.  
 
+#### 5. Sharing data only “by request” or with “Principal Investigator (PI) control”
 
+Proposing to share data “by request” or where the PI controls access to the data is generally not acceptable under the DMS Policy. Not only does a [growing body of literature](https://pubmed.ncbi.nlm.nih.gov/?term=35654271%3B+34315906%3B+34874005) demonstrate that this approach is not effective, but it also inhibits the ability to make the data accessible to the larger research community (i.e., hundreds or thousands of users). So, this approach is not aligned with the [Policy’s definition of data sharing](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html#:~:text=Data%20Sharing%3A%20The%20act%20of%20making%20scientific%20data%20available%20for%20use%20by%20others%20(e.g.%2C%20the%20larger%20research%20community%2C%20institutions%2C%20the%20broader%20public)%2C%20for%20example%2C%20via%20an%20established%20repository.).
+
+NICHD ODSS’s analyses revealed some confusion in the community about the difference between “by request” and the NIH definition of “[controlled access](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-22-213.html#:~:text=controlled%20(i.e.%2C%20measures%20such%20as%20requiring%20data%20requesters%20to%20verify%20their%20identity%20and%20the%20appropriateness%20of%20their%20proposed%20research%20use%20to%20access%20protected%20data)%2C),” which is a protection described in the DMS Policy privacy materials. 
+
+Data should be considered for controlled access sharing through repositories when it:
+* has limitations on use imposed by laws, regulations, policies, informed consent, or agreements, 
+* is sensitive or involves risk of harm to individuals, groups, or populations (e.g., stigmatizing traits, illegal behaviors), or 
+* cannot be sufficiently de-identified to established standards or has a unique risk of re-identification. 
+
+Controlled-access data repositories have established processes for verifying appropriate use of shared data, including steps like confirming requestor identity, establishing centralized and standardized data use agreements, and obtaining approval of secondary use requests by a neutral and independent committee. Because these aspects are already managed by the repository, there is no need for researchers to manage access directly or establish data use agreements on their own—often burdensome and time-consuming activities that can delay data access for years and conflict with NIH requirements. 
+
+By using a controlled-access data repository, you are leveraging established and “well-oiled” processes and agreements that can enable equitable data access in a matter of hours or days.
+
+Some repositories do allow researchers to gatekeep access to their own data. While this may be appropriate for some purposes (e.g., granting another researcher access to data while collaborating on an analysis before data release), it does not meet the NIH definition of data sharing and thus does not alone meet the expectations of the DMS Policy.
+
+
+#### 6. Providing vague reasons for not sharing, limited sharing, or delayed sharing
+
+Researchers must provide a [clear and thorough justification](https://grants.nih.gov/faqs#/data-management-and-sharing-policy.htm?anchor=56549) for anything that deviates from NIH DMS Policy expectations. If you are not sharing all of your scientific data through an established data repository by the end of the award period, you need to clearly describe which data are impacted, how sharing is limited, and justify why for NIH staff to review. 
+Rather than vaguely stating there are “legal reasons” or “policies,” cite the specific law, policy, agreement, or IRB determination, include an excerpt of a relevant language, and explain why and how that impacts sharing your data. In some cases, you may need to invoke a specific protection because some laws or policies  mean that you can delay data sharing, but you don’t necessarily have to. If you choose to invoke such a reason to delay sharing, you must explicitly state that in your plan and describe which data are impacted. Similarly, rather than claiming “privacy issues” or “ethical concerns,” describe how you engaged Institutional Review Board expertise to determine reasons for limitations, such as why you will redact certain elements from shared data.
+NICHD has observed blocks of texts copy-and-pasted into DMS Plans citing the 2003 NIH Data Sharing Policy and other policies that are not relevant to DMS Plans. DMS Plans should only describe rules that impact the sharing of scientific data for the specific funding application. 
+
+
+#### 7. Limiting the duration of data sharing to “local retention cycles”
+
+Researchers should plan to share data for as long as possible within the repository’s data retention cycles. Researchers sometimes confuse data repository retention policies with their local record retention cycles and mistakenly state they will only share data for “5 years” or whatever time frame is specified in their records management policy.
+Data repository retention cycles are usually much longer and will often host data “in perpetuity.” It is not appropriate for the researcher to take data down any sooner.
+
+
+#### 8. Limiting reproducibility for secondary analysis projects
+
+A primary goal of the DMS Policy is to foster validation, replication, and reproducibility of research findings. While researchers are not expected to re-share existing, shared primary data used to conduct secondary research, secondary research applications are expected to maximize appropriate sharing of any new, derived data generated as a result of their research. 
+
+Secondary analysis DMS Plans are often lacking details that are critical for fostering reproducibility including a description of: 
+
+* The primary data used in the project and where (e.g., through a controlled access repository or administrative data source) and how (e.g., after signing a data use agreement) other researchers can access that data.*    
+* When, where, and how the documentation and/or code for processing and analyzing that data will be shared (e.g., a generalist repository, GitHub).  
+* When, where, and how derived data, including aggregate or summary data, will be shared (e.g., a generalist repository for summary data, the original source repository for individual-level data derivatives [if compatible with data rules and approved by the source repository]).    
+
+*If the primary data are not accessible to the research community, additional steps may be warranted to support the Policy’s reproducibility expectation, where allowable. 
+
+For example, the table in #6 of the updated DMS Plan Format page, may include the following information:
+
+| Expected Data Type  | Established Repository or Example | 
+| :----------| :---------- |
+|Primary data: VCFs from the PCGC study|Source repository: dbGaP study phs00XXXX.v4.p3|
+|Derived data: VCFs harmonized to a new variant calling pipeline |Shared through dbGaP following the governance of the original study (if approved)|
+|Variant calling pipeline documentation and code |GitHub|
+
+
+#### 9. Missing or unclear DMS budget justifications (in extramural applications)
+
+NICHD wants to make sure that researchers are requesting sufficient funds to support the DMS activities described in their DMS Plans throughout the life of the project, not just at the project’s end. The [DMS Budget Justifications](https://grants.nih.gov/grants/how-to-apply-application-guide/forms-i/general/g.300-r&r-budget-form.htm#L) should summarize all costs relevant to activities described in the DMS Plan. You should include a DMS Budget Justification even when you are not requesting DMS-specific costs, so that you can explain why funds are not needed.
+
+NICHD ODSS expects that the majority of DMS costs will fall into the personnel categories for the time and effort required to prepare data for submission to repositories. Researchers can reduce this effort by designing data collection and analysis approaches that align with a data repository’s submission requirements (formats, metadata, documentation, etc.). 
+
+Many established data repositories do not charge submission fees, or they charge a minimal one-time fee. Not having to worry about long-term storage costs after data are submitted is another reason to use established repositories.
 
 
 
