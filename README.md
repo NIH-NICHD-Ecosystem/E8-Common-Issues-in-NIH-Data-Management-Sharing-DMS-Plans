@@ -3,7 +3,7 @@
 
 </br>
 
-# E8 Common Issues in NIH Data Management & Sharing DMS Plans
+# E8 Common Issues in NIH Data Management & Sharing (DMS) Plans
 
 ###  The _Eunice Kennedy Shriver_ National Institute of Child Health and Human Development (NICHD) Office of Data Science and Sharing (ODSS) identified nine issues common to many DMS Plans submitted to NICHD. Researchers should avoid these issues moving forward and revise existing DMS Plans to better align with the DMS Policy, as appropriate. 
 
