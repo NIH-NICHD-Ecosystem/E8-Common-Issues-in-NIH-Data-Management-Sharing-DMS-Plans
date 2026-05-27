@@ -93,6 +93,12 @@ Extra care should be taken when selecting data repositories that support control
 
 Finally, it is unacceptable for researchers to propose to build a new data repository or to share data through a forthcoming data repository, as part of the DMS Plan.  
 <br/>
+
+
+_**Figure 1: Detected Repository Frequency in Element 4 of DMS Plans Submitted to NICHD.** In May 2026, NICHD ODSS assessed the repositories and other systems researchers proposed for data sharing to help provide better guidance on repository suitability. For example, GitHub, PubMed, and REDCap are not designed to serve as data repositories, although they are appropriate for storing or sharing other research products. In addition, many researchers are defaulting to generalist repositories (like OSF, Zenodo, Dataverse, Dryad, Figshare, and Mendeley) when they should be using DASH or other domain-specific data repositories. The figure summarizes the systems NICHD researchers named in Element 4 of the 2023 NIH DMS plan format page, which is where researchers were prompted to describe where data will be shared._
+
+![Figure 1](https://github.com/NIH-NICHD-Ecosystem/E8-Common-Issues-in-NIH-Data-Management-Sharing-DMS-Plans/blob/main/assets/Figure%201.png)
+
 <br/>
 
 ### 5. Sharing data only “by request” or with “Principal Investigator (PI) control”
