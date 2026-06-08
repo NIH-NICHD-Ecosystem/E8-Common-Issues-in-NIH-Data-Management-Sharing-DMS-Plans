@@ -11,7 +11,16 @@
 
 ## Table of Contents
 - [Effort Overview](#effort-overview)
-- [Common Issues in NIH Data Management & Sharing (DMS) Plans (and how to address them)](#common-issues)
+- [Common Issues in NIH Data Management & Sharing (DMS) Plans (and how to address them)](#common-issues)<br/>
+   [1. Missing details for data that will be generated and shared](https://github.com/NIH-NICHD-Ecosystem/E8-Common-Issues-in-NIH-Data-Management-Sharing-DMS-Plans/tree/main#1-missing-details-for-data-that-will-be-generated-and-shared)    <br/>
+   [2. Sharing only publication-associated data](https://github.com/NIH-NICHD-Ecosystem/E8-Common-Issues-in-NIH-Data-Management-Sharing-DMS-Plans/tree/main#2-sharing-only-publication-associated-data) <br/>
+   [3. Not sharing data in established data repositories](https://github.com/NIH-NICHD-Ecosystem/E8-Common-Issues-in-NIH-Data-Management-Sharing-DMS-Plans/tree/main#3-not-sharing-data-in-established-data-repositories) <br/>
+   [4. Not using appropriate domain- or discipline-specific data repositories](https://github.com/NIH-NICHD-Ecosystem/E8-Common-Issues-in-NIH-Data-Management-Sharing-DMS-Plans/tree/main#4-not-using-appropriate-domain--or-discipline-specific-data-repositories) <br/>
+   [5. Sharing data only “by request” or with “Principal Investigator (PI) control”](https://github.com/NIH-NICHD-Ecosystem/E8-Common-Issues-in-NIH-Data-Management-Sharing-DMS-Plans/tree/main#5-sharing-data-only-by-request-or-with-principal-investigator-pi-control) <br/>
+   [6. Providing vague reasons for not sharing, limited sharing, or delayed sharing](https://github.com/NIH-NICHD-Ecosystem/E8-Common-Issues-in-NIH-Data-Management-Sharing-DMS-Plans/tree/main#6-providing-vague-reasons-for-not-sharing-limited-sharing-or-delayed-sharing)  <br/>
+   [7. Limiting the duration of data sharing to “local retention cycles”](https://github.com/NIH-NICHD-Ecosystem/E8-Common-Issues-in-NIH-Data-Management-Sharing-DMS-Plans/tree/main#7-limiting-the-duration-of-data-sharing-to-local-retention-cycles) <br/>
+   [8. Limiting reproducibility for secondary analysis projects](https://github.com/NIH-NICHD-Ecosystem/E8-Common-Issues-in-NIH-Data-Management-Sharing-DMS-Plans/tree/main#8-limiting-reproducibility-for-secondary-analysis-projects) <br/>
+   [9. Missing or unclear DMS budget justifications](https://github.com/NIH-NICHD-Ecosystem/E8-Common-Issues-in-NIH-Data-Management-Sharing-DMS-Plans/tree/main#9-missing-or-unclear-dms-budget-justifications-in-extramural-applications)  <br/>
 - [User Stories](#user-stories)
 
 <br/><br/>
