@@ -101,7 +101,9 @@ Generalist repositories are useful, and [NIH is investing in making them better]
 Extra care should be taken when selecting data repositories that support controlled access sharing (note related issue #5). Controlled access data repositories must adhere to additional security and operational standards, such as those described in [Requirements for NIH Controlled-Access Data Repositories and Users](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/accessing-data/requirements) and the forthcoming requirements of the [Draft NIH Controlled-Access Data Policy](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-023.html).
 
 Finally, it is unacceptable for researchers to propose to build a new data repository or to share data through a forthcoming data repository, as part of the DMS Plan.  
-<br/>
+
+Learn more about [NICHD Data Repository Requirements](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/data-repository-requirements/NICHD).
+<br/><br/>
 
 
 _**Figure 1: Detected Repository Frequency in Element 4 of DMS Plans Submitted to NICHD.** In May 2026, NICHD ODSS assessed the repositories and other systems researchers proposed for data sharing to help provide better guidance on repository suitability. For example, GitHub, PubMed, and REDCap are not designed to serve as data repositories, although they are appropriate for storing or sharing other research products. In addition, many researchers are defaulting to generalist repositories (like OSF, Zenodo, Dataverse, Dryad, Figshare, and Mendeley) when they should be using DASH or other domain-specific data repositories. The figure summarizes the systems NICHD researchers named in Element 4 of the 2023 NIH DMS plan format page, which is where researchers were prompted to describe where data will be shared._
